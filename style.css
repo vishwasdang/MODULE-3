@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+     
+        background-color : #eaf6ff;
+    }
+    h2 {
+                text-align: center;
+                color: black;
+                font-family: Arial, Helvertica, sans-serif;
+                font-style: italic;
+                
+                font-size: 3em
+            }
+            h3{
+                text-align: center;
+                
+                font-family: Arial, Helvertica, sans-serif;
+                font-style: italic;
+                text-shadow: 2px 2px 5px red;
+                font-size: 2.6em;
+            }
+    
+    #header-nav{
+        background-image: linear-gradient( #e4d0ff, #ffd0d4);
+        border-radius: 0;
+        border: 0;
+    }
+    .navbar-brand{
+        
+    }
+    
+    .navbar-brand h1{ /*Restaurant name */
+       font-family: Arial, Helvertica, sans-serif;
+       color: black;
+       font-size: 40px;
+      
+       font-weight: bold;
+       text-shadow: 2px 2px 5px red;
+       margin: 0;
+       
+       line-height: .75; 
+     }
+    
+    .navbar-brand a:hover, .navbar-brand a:focus{
+        text-decoration:none;
+    }
+    .description {
+        padding: 45px 10px 5px 10px;
+        font-size: 24px;
+    
+      }
+    
+      #country{
+        background-image: linear-gradient( #e4d0ff, #ffd0d4);
+        
+      }
+       div.section {
+        background-image: radial-gradient(circle, #b4ceff, #ffc0b4, #b4ffe6);
+        border: 1px solid black;
+        position: relative;
+        margin: 10px;
+        box-shadow: 10px 10px 5px grey;
+      }
+       .row {
+        width: 100%;
+        padding: 0 10px 0 10px;
+      }
